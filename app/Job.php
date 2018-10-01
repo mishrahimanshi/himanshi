@@ -15,6 +15,6 @@ class Job extends Model
     ];
 
     public function jobskills(){
-        return $this->hasMany('App/JobSkills','job_id');
+        return $this->hasMany('App\JobSkill','job_id');
     }
 }

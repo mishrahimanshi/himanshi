@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class JobSkill extends Model
 {
     //Table name
-    protected $table = 'job_skills';
+    protected $table = 'jobs_skills';
 
     //Field name
     protected $fillable = [
